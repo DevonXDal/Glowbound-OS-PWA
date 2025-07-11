@@ -17,14 +17,13 @@ Created by **Devon X. Dalrymple**, this project is a sacred and sensual PWA for 
 
 ---
 
-## Important Disclaimer - Adult and Conditioning Usage
+## Important Disclaimer - Adult and Potentially Disturbing Usage
 This project, while public, is first and foremost for my home, family, friends, and partners. Expect features that include potentially disturbing or NSFW topics, including but not limited to:
 - Sex
 - NSFW Graphical Content
 - Hypnosis
 - Pavlovian Conditioning
 - Personal Grimoires
-- Fibromyalgia
 - Relationship Anarchism
 - Esoteric Exploration
 
