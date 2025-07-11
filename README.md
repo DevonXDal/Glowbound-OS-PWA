@@ -18,7 +18,7 @@ Created by **Devon X. Dalrymple**, this project is a sacred and sensual PWA for 
 ---
 
 ## Important Disclaimer - Adult and Conditioning Usage
-This project, while public, is first and foremost, for my home, family, friends, and partners. Expect features that include potentially disturbing or NSFW topics including but not limited to:
+This project, while public, is first and foremost for my home, family, friends, and partners. Expect features that include potentially disturbing or NSFW topics, including but not limited to:
 - Sex
 - NSFW Graphical Content
 - Hypnosis
@@ -34,12 +34,14 @@ Nothing is stopping you from stripping these elements out or hiding them. If thi
 - **Conditioning + Lovense Sync**: Hypnotic loops, affirmations, vibration patterns, and ritual triggers.
 - **Shared Journaling**: Markdown-based daily logs, shared entries, import/export support.
 - **Parenting Tracker**: Log behaviors, punishments, praise, and support for child-facing roles.
-- **Mood + Health Monitor**: Track fibro flareups, mood swings, barometric pressure, and sleep.
+- **Mood + Health Monitor**: Track fibro flare-ups, mood swings, barometric pressure, and sleep.
 - **Grocery + Chore Lists**: Divvy up labor fairly and clearly.
 - **Gallery View**: Mosaic-style image albums with role-based visibility (e.g., Deviant-only NSFW).
 - **Dock UI**: Toggle between sacred/scene apps, quick access via role-reactive dock.
 - **Appointments + Daily Tab**: Comics, quotes, hypno cues, schedules.
 - **Help Request System**: Tap to signal when you’re in crisis, need aftercare, or request support.
+
+Access to different segments will be protected using claims-based access management and strong account security (including MFA). Custom claims to fine-tune access to various features or files will allow for strong access controls.
 
 ---
 
