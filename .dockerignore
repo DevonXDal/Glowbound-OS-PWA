@@ -1,0 +1,50 @@
+# 🔧 Node / React / Build
+node_modules
+dist
+build
+.vite
+
+# 🐳 Docker
+.docker/
+.dockerignore
+Dockerfile
+docker-compose.yml
+docker-compose.override.yml
+docker-compose.dev.yml
+
+# ⚙️ Dev / Tooling
+.vscode
+.idea
+*.log
+*.pid
+.env
+.env.*
+*.temp
+*.bak
+*.swp
+*.swo
+*.DS_Store
+
+# 🐘 Supabase
+.supabase/
+supabase/
+supabase/.env
+supabase/.temp/
+supabase/docker/
+supabase/studio/
+supabase/config.toml
+
+# 🌱 Git
+.git
+.gitignore
+.gitattributes
+
+# 🧠 PlantUML
+*.puml~
+plantuml-diagrams/
+__plantuml_cache__/
+
+# 📦 Lock files (optional, depends on install strategy)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml

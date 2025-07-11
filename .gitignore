@@ -1,22 +1,73 @@
-### AL ###
-#Template for AL projects for Dynamics 365 Business Central
-#launch.json folder
+# 🔧 Node & React
+node_modules/
+dist/
+build/
+.env
+.env.local
+.env.development
+.env.production
+.vite/
+
+# ⛴ Docker
+**/.docker/
+docker-compose.override.yml
+docker-compose.dev.yml
+Dockerfile.local
+*.pid
+*.log
+
+# 🐘 Supabase (Self-hosted / CLI / Local Dev)
+.supabase/
+supabase/.temp/
+supabase/.env
+supabase/migrations/.snapshots/
+supabase/config.toml
+supabase/.dev.db
+supabase/docker/volumes/
+supabase/docker/logs/
+supabase/studio/
+
+# 🪄 PlantUML
+__plantuml_cache__/
+plantuml.jar
+
+# 🧪 IDE & Misc
 .vscode/
-#Cache folder
-.alcache/
-#Symbols folder
-.alpackages/
-#Snapshots folder
-.snapshots/
-#Testing Output folder
-.output/
-#Extension App-file
-*.app
-#Rapid Application Development File
-rad.json
-#Translation Base-file
-*.g.xlf
-#License-file
-*.flf
-#Test results file
-TestResults.xml
+.idea/
+.git/
+.DS_Store
+*.swp
+*.swo
+*.bak
+Thumbs.db
+*.iml
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp/
+.pnp.js
+
+# 🔐 Secrets
+*.pem
+*.key
+*.crt
+*.cert
+*.asc
+*.gpg
+*.sqlite
+
+# 📦 Package lock if you’re using only one manager
+# Remove either of these depending on yarn vs npm
+package-lock.json
+# yarn.lock
+
+# 🧪 Test snapshots
+__snapshots__/
+coverage/
+
+# 🧪 Custom dumps/logs/temp
+logs/
+tmp/
+*.temp
+*.dump
