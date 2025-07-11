@@ -1,0 +1,26 @@
+# HTTP → HTTPS Redirect
+http:// {
+  redir https://{host}{uri}
+}
+
+# React PWA (frontend)
+glowbound.local {
+  @vpnOnly remote_ip 100.64.0.0/10  # Tailscale subnet
+  respond @vpnOnly "GlowboundOS is VPN-only." 403
+  reverse_proxy glowboundos_frontend:80
+}
+
+# Uptime Kuma
+status.glowbound.local {
+  reverse_proxy glowbound_uptime:3001
+}
+
+# Portainer (Docker GUI)
+docker.glowbound.local {
+  reverse_proxy glowbound_portainer:9000
+}
+
+# pgAdmin (Database Access)
+pgadmin.glowbound.local {
+  reverse_proxy glowbound_pgadmin:80
+}

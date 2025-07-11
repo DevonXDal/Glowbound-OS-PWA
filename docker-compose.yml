@@ -1,0 +1,126 @@
+version: "3.9"
+
+services:
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: glowboundos_frontend
+    labels:
+      - caddy=glowbound.local
+      - caddy.reverse_proxy={{upstreams 80}}
+    networks:
+      - web
+    ports:
+      - target: 80
+        published: ${PWA_PORT:-80}
+        protocol: tcp
+        mode: host
+    restart: unless-stopped
+
+  supabase-db:
+    image: supabase/postgres:15
+    container_name: supabase_db
+    environment:
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+    volumes:
+      - supabase_db_data:/var/lib/postgresql/data
+    networks:
+      - backend
+    restart: unless-stopped
+
+  supabase-api:
+    image: supabase/gotrue:v2.116.0
+    container_name: supabase_api
+    depends_on:
+      - supabase-db
+    environment:
+      GOTRUE_DB_DRIVER: postgres
+      GOTRUE_DB_DATABASE_URL: postgres://postgres:${POSTGRES_PASSWORD}@supabase-db:5432/postgres
+      GOTRUE_SITE_URL: http://localhost
+    networks:
+      - backend
+    restart: unless-stopped
+
+  caddy:
+    image: caddy:2-alpine
+    container_name: glowbound_caddy
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile
+      - caddy_data:/data
+      - caddy_config:/config
+    networks:
+      - web
+
+  uptime-kuma:
+    image: louislam/uptime-kuma:latest
+    container_name: glowbound_uptime
+    volumes:
+      - uptime_kuma_data:/app/data
+    ports:
+      - "3001:3001"
+    restart: unless-stopped
+    networks:
+      - web
+
+  portainer:
+    image: portainer/portainer-ce:latest
+    container_name: glowbound_portainer
+    restart: unless-stopped
+    ports:
+      - "9000:9000"
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - portainer_data:/data
+    networks:
+      - web
+      
+  # Add this to your existing services section:
+
+  pgadmin:
+    image: dpage/pgadmin4
+    container_name: glowbound_pgadmin
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@glowbound.local
+      PGADMIN_DEFAULT_PASSWORD: ${PGADMIN_PASSWORD}
+    ports:
+      - "5050:80"
+    volumes:
+      - pgadmin_data:/var/lib/pgadmin
+    networks:
+      - backend
+    restart: unless-stopped
+
+
+  tailscale:
+    image: tailscale/tailscale
+    container_name: glowbound_tailscale
+    hostname: glowboundos
+    cap_add:
+      - NET_ADMIN
+      - SYS_MODULE
+    volumes:
+      - tailscale_data:/var/lib/tailscale
+    environment:
+      - TS_AUTHKEY=${TAILSCALE_AUTHKEY}
+    network_mode: host  # for full VPN access
+    restart: unless-stopped
+
+volumes:
+  supabase_db_data:
+  caddy_data:
+  caddy_config:
+  uptime_kuma_data:
+  portainer_data:
+  tailscale_data:
+  pgadmin_data:
+
+
+networks:
+  web:
+  backend:
