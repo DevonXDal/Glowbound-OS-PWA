@@ -1,4 +1,4 @@
-# DevonFair License v1.0 (DFL-1.0)
+# DevonFair License v1.0 (DFL-1.1)
 
 This software is made available to the public under the following terms:
 
@@ -17,7 +17,7 @@ If you (or your company/product/service/system) intend to:
 - Include it in a toolset that generates revenue or is sold commercially,
 
 Then you must:
-- Notify the original author (Devon X. Dalrymple) at **devonxbusiness@gmail.com**.
+- Notify the original author (Devon X. Dalrymple) at **devonxbusiness@gmail.com** or via text message to **(304) 210-8472**.
 - Negotiate a **15% revenue share or license fee**, applicable to revenue derived from this software or its derivatives.
 - Deliver payments via Stripe, PayPal, CashApp, Venmo, or direct deposit, at least quarterly when revenue exceeds **1000 USD per month.**.
 
@@ -39,7 +39,12 @@ License violations may also result in DMCA takedown notices, public delisting, o
 
 This software is provided **"as-is"** without any express or implied warranties. The author is not liable for damages arising from its use.
 
+## 6. Changelog
+
+The following changes have been made across versions:
+- **DFL-1.1**: Changed the license file type; added a contact phone number.
+
 ---
 
 © 2025 Devon X. Dalrymple  
-License Version: DFL-1.0  
+License Version: DFL-1.1  

@@ -26,6 +26,7 @@ services:
       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
     volumes:
       - supabase_db_data:/var/lib/postgresql/data
+      - ./supabase/init:/docker-entrypoint-initdb.d
     networks:
       - backend
     restart: unless-stopped
@@ -95,6 +96,21 @@ services:
     networks:
       - backend
     restart: unless-stopped
+    
+  dbmate:
+    image: amacneil/dbmate:latest
+    container_name: glowbound_dbmate
+    depends_on:
+      - supabase-db
+    volumes:
+      - ./supabase/migrations:/db/migrations
+      - .env:/db/.env
+    working_dir: /db
+    entrypoint: dbmate --env .env up
+    networks:
+      - backend
+    restart: "no"
+
 
 
   tailscale:

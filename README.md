@@ -1,10 +1,17 @@
-[![License: DevonFair v1.0](https://img.shields.io/badge/license-DevonFair%20v1.0-purple)](./LICENSE)
+[![License: DevonFair v1.1](https://img.shields.io/badge/license-DevonFair%20v1.0-purple)](./LICENSE.md)
+![Author](https://img.shields.io/badge/Made%20by-Devon%20X.%20Dalrymple-purple?style=flat-square)
 ![React](https://img.shields.io/badge/React-20232a?logo=react&logoColor=61dafb)
 ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38bdf8?logo=tailwindcss&logoColor=white)
 ![DaisyUI](https://img.shields.io/badge/DaisyUI-pink?logo=daisyui&logoColor=white)
 ![Supabase](https://img.shields.io/badge/Supabase-3ecf8e?logo=supabase&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ed?logo=docker&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?logo=postgresql&logoColor=white)
+![Caddy](https://img.shields.io/badge/Proxy-Caddy-15B0A2?style=flat-square)
+![Uptime Kuma](https://img.shields.io/badge/Monitor-Uptime--Kuma-3C3C3C?style=flat-square)
+![Portainer](https://img.shields.io/badge/Dashboard-Portainer-13BEF9?style=flat-square)
+![Made in WV](https://img.shields.io/badge/Made%20in-West%20Virginia-35495E?style=flat-square&logo=leaflet)
+![LGBTQ+ Friendly](https://img.shields.io/badge/LGBTQ%2B--friendly-Yes-ff69b4?style=flat-square&logo=rainbow)
+![Inclusive](https://img.shields.io/badge/Inclusive-Yes-FFC0CB?style=flat-square&logo=heart)
 
 ---
 
@@ -14,6 +21,7 @@ _Built for sacred intimacy, wellness, kink, and care._
 This is an evolving modular PWA designed for small households, chosen families, and bonded partners to manage shared life with elegance, softness, and ritual.
 
 Created by **Devon X. Dalrymple**, this project is a sacred and sensual PWA for love, logistics, and liberation.
+Project Created: **2025-07-11**
 
 ---
 
@@ -22,7 +30,7 @@ This project, while public, is first and foremost for my home, family, friends, 
 - Sex
 - NSFW Graphical Content
 - Hypnosis
-- Pavlovian Conditioning
+- Pavlovian Conditioning for Self-Improvement
 - Personal Grimoires
 - Relationship Anarchism
 - Esoteric Exploration
@@ -49,8 +57,9 @@ Access to different segments will be protected using claims-based access managem
 This project is licensed under the **DevonFair License v1.0**:
 - Open for non-commercial use, modding, and self-hosting.
 - Commercial use (or monetized forks) require a **15% revenue share**.
+- Please reach out if you would like to negotiate a different commercial use agreement.
 - Contact: [devonxbusiness@gmail.com](mailto:devonxbusiness@gmail.com)
-- See [`LICENSE.md`](./LICENSE) and [`NOTICE.md`](./NOTICE) for full terms.
+- See [`LICENSE.md`](./LICENSE.md) and [`NOTICE.md`](./NOTICE.md) for full terms.
 
 ---
 
@@ -62,6 +71,13 @@ This project is licensed under the **DevonFair License v1.0**:
 - **Other Probable Integrations**: Yjs (live collab), Lovense WebSocket API, OpenWeatherMap, Ground News
 
 ---
+
+## Getting Started 
+1. Clone the repository using your preferred release version (if available).
+1. Configure your .env file [.env Guide](./documentation/setup/envFileGuide.md)
+1. Run the OS-specific shell file as an elevated user.
+1. Run the docker compose build command.
+1. Run the docker compose up 
 
 ## 💖 Philosophy
 
