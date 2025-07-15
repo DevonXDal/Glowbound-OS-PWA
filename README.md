@@ -1,16 +1,16 @@
-[![License: DevonFair v1.1](https://img.shields.io/badge/license-DevonFair%20v1.0-purple)](./LICENSE.md)
-![Author](https://img.shields.io/badge/Made%20by-Devon%20X.%20Dalrymple-purple?style=flat-square)
-![React](https://img.shields.io/badge/React-20232a?logo=react&logoColor=61dafb)
-![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38bdf8?logo=tailwindcss&logoColor=white)
-![DaisyUI](https://img.shields.io/badge/DaisyUI-pink?logo=daisyui&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3ecf8e?logo=supabase&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ed?logo=docker&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?logo=postgresql&logoColor=white)
-![Caddy](https://img.shields.io/badge/Proxy-Caddy-15B0A2?style=flat-square)
-![Uptime Kuma](https://img.shields.io/badge/Monitor-Uptime--Kuma-3C3C3C?style=flat-square)
-![Portainer](https://img.shields.io/badge/Dashboard-Portainer-13BEF9?style=flat-square)
-![Made in WV](https://img.shields.io/badge/Made%20in-West%20Virginia-35495E?style=flat-square&logo=leaflet)
-![LGBTQ+ Friendly](https://img.shields.io/badge/LGBTQ%2B--friendly-Yes-ff69b4?style=flat-square&logo=rainbow)
+[![License: DevonFair v1.2](https://img.shields.io/badge/license-DevonFair%20v1.0-purple)](./LICENSE.md)
+[![Author](https://img.shields.io/badge/Made%20by-Devon%20X.%20Dalrymple-purple?style=flat-square)](https://www.linkedin.com/in/devon-dalrymple-19246a182/)
+[![React](https://img.shields.io/badge/React-20232a?logo=react&logoColor=61dafb)](https://react.dev/)
+[![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38bdf8?logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
+[![DaisyUI](https://img.shields.io/badge/DaisyUI-pink?logo=daisyui&logoColor=white)](https://daisyui.com/)
+[![Supabase](https://img.shields.io/badge/Supabase-3ecf8e?logo=supabase&logoColor=white)](https://supabase.com/)
+[![Docker](https://img.shields.io/badge/Docker-2496ed?logo=docker&logoColor=white)](https://www.docker.com/)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?logo=postgresql&logoColor=white)](https://www.postgresql.org/)
+[![Caddy](https://img.shields.io/badge/Proxy-Caddy-15B0A2?style=flat-square)](https://caddyserver.com/)
+[![Uptime Kuma](https://img.shields.io/badge/Monitor-Uptime--Kuma-3C3C3C?style=flat-square)](https://uptime.kuma.pet/)
+[![Portainer](https://img.shields.io/badge/Dashboard-Portainer-13BEF9?style=flat-square)](https://www.portainer.io/)
+[![Made in WV](https://img.shields.io/badge/Made%20in-West%20Virginia-35495E?style=flat-square&logo=leaflet)](https://www.wv.gov/)
+[![LGBTQ+ Friendly](https://img.shields.io/badge/LGBTQ%2B--friendly-Yes-ff69b4?style=flat-square&logo=rainbow)](https://www.thetrevorproject.org/)
 ![Inclusive](https://img.shields.io/badge/Inclusive-Yes-FFC0CB?style=flat-square&logo=heart)
 
 ---
@@ -39,8 +39,8 @@ Nothing is stopping you from stripping these elements out or hiding them. If thi
 
 ## ✨ Core Features (Modular Tabs)
 - **Conditioning + Lovense Sync**: Hypnotic loops, affirmations, vibration patterns, and ritual triggers.
-- **Shared Journaling**: Markdown-based daily logs, shared entries, import/export support.
-- **Parenting Tracker**: Log behaviors, punishments, praise, and support for child-facing roles.
+- **Shared Journaling**: Glowdown Markdown-based daily logs, shared entries, import/export (Glowdown Markdown, Markdown, PDF, and HTML) support.
+- **Parenting Tracker**: Log behaviors, consequences, praise, and support for child-facing roles.
 - **Mood + Health Monitor**: Track fibro flare-ups, mood swings, barometric pressure, and sleep.
 - **Grocery + Chore Lists**: Divvy up labor fairly and clearly.
 - **Gallery View**: Mosaic-style image albums with role-based visibility (e.g., Deviant-only NSFW).

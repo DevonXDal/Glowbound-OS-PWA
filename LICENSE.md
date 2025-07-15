@@ -1,4 +1,4 @@
-# DevonFair License v1.0 (DFL-1.1)
+# DevonFair License v1.2 (DFL-1.2)
 
 This software is made available to the public under the following terms:
 
@@ -25,7 +25,9 @@ Then you must:
 
 ## 3. Attribution
 
-You must include the following attribution in any public or redistributed copy of the software:
+This project includes original work by [Devon X. Dalrymple](mailto:devonxbusiness@gmail.com).  
+See [ATTRIBUTION.md](./ATTRIBUTION.md) for full credits and open-source acknowledgments.
+
 
 ## 4. Enforcement & Non-Compliance
 
@@ -43,8 +45,9 @@ This software is provided **"as-is"** without any express or implied warranties.
 
 The following changes have been made across versions:
 - **DFL-1.1**: Changed the license file type; added a contact phone number.
+- **DFL-1.2**: Fixed the missing attribution issue.
 
 ---
 
 © 2025 Devon X. Dalrymple  
-License Version: DFL-1.1  
+License Version: DFL-1.2 
